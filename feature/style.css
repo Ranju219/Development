@@ -1,0 +1,24 @@
+.music-container{
+  display:flex;
+  gap:20px;
+  padding:20px;
+}
+
+.music-card{
+  background:#181818;
+  padding:15px;
+  border-radius:10px;
+  width:150px;
+  text-align:center;
+  color:white;
+}
+
+.music-card img{
+  width:100%;
+  border-radius:8px;
+}
+
+.music-card:hover{
+  background:#282828;
+  cursor:pointer;
+}
