@@ -1,4 +1,4 @@
-/* --- General Body --- */
+/* General Body */
 body {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@ body {
     color: white;
 }
 
-/* --- Login Card --- */
+/* Login Card */
 .login-container {
     background-color: #121212;
     padding: 50px 40px;
@@ -21,30 +21,34 @@ body {
     text-align: center;
 }
 
-/* --- Heading --- */
+/* Heading */
 .login-container h2 {
     font-weight: 700;
     margin-bottom: 30px;
     font-size: 28px;
 }
 
-/* --- Input Fields --- */
+/* Inputs */
+.input-group {
+    margin-bottom: 20px;
+}
 .login-container input {
     width: 100%;
     padding: 14px 15px;
-    margin-bottom: 20px;
     border-radius: 8px;
     border: none;
     background-color: #282828;
     color: white;
     font-size: 15px;
 }
-
 .login-container input::placeholder {
     color: #b3b3b3;
 }
 
-/* --- Login Button --- */
+/* Button */
+.button-group {
+    margin-bottom: 20px;
+}
 .login-container button {
     width: 100%;
     padding: 14px;
@@ -57,29 +61,27 @@ body {
     cursor: pointer;
     transition: background 0.3s, transform 0.2s;
 }
-
 .login-container button:hover {
     background-color: #1ed760;
     transform: translateY(-2px);
 }
 
-/* --- Links --- */
-.login-container a {
+/* Links */
+.links a {
     display: block;
-    margin-top: 15px;
+    margin-top: 10px;
     color: #b3b3b3;
     font-size: 13px;
     text-decoration: none;
     transition: color 0.2s;
 }
-
-.login-container a:hover {
+.links a:hover {
     color: #fff;
 }
 
-/* --- Small Text --- */
+/* Small Text */
 .small-text {
     font-size: 12px;
     color: #b3b3b3;
-    margin-top: 15px;
+    margin-top: 20px;
 }
